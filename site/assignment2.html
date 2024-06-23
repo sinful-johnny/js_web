@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My search engine</title>
+        <link rel="icon" type="image/x-icon" href="HTML-Page-4.ico">
+        <style>
+            h1 {
+                text-align: center;
+            }
+            @media (min-width: 992px){
+                .col-lg {
+                    box-sizing: border-box;
+                    float: left;
+                    width: 30%;
+                    border: 1px solid black;
+                    background-color: lightgray;
+                    margin: 1%;
+                }
+            }
+
+            @media  (min-width: 768px) and (max-width: 991px){
+                #Div1st{
+                    box-sizing: border-box;
+                    display: inline-block;
+                    width: 45%;
+                    border: 1px solid black;
+                    background-color: lightgray;
+                    margin: 1%;
+                }
+
+                #Div2nd{
+                    box-sizing: border-box;
+                    display: inline-block;
+                    width: 45%;
+                    border: 1px solid black;
+                    background-color: lightgray;
+                    margin: 1%;
+                }
+
+                #Div3rd{
+                    box-sizing: border-box;
+                    display: inline-block;
+                    width: 92.5%;
+                    border: 1px solid black;
+                    background-color: lightgray;
+                    margin: 1%;
+                }
+            }
+
+            @media (min-width: 0) and (max-width: 767px){
+                .col-sm {
+                    box-sizing: border-box;
+                    float: left;
+                    width: 100%;
+                    border: 1px solid black;
+                    background-color: lightgray;
+                    margin-left: 1%;
+                }
+            }
+          
+          .optionName {
+            text-align: center;
+            border: 1px solid black;
+            border-top: transparent;
+            border-right: transparent;
+            margin: auto;
+            margin-bottom: 2%;
+            float: right;
+            padding: 10px;
+            font-size: large;
+          }
+
+          p {
+            clear:both;
+            padding: 2%;
+          }
+
+          #chickenBanner{
+            background-color: #e07855;
+          }
+          #beefBanner{
+            background-color: #d93611;
+          }
+          #sushiBanner{
+            background-color: #e8a23a;
+          }
+          #mainDiv{
+            text-align: center;
+          }
+        </style>
+    </head>
+    <body>
+        <h1>Our Menu</h1>
+        <div id="mainDiv">
+            <div class=" col-lg col-sm" id="Div1st">
+                <div class="optionName" id="chickenBanner">
+                    Chicken
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class=" col-lg col-sm" id="Div2nd">
+                <div class="optionName" id="beefBanner">
+                    Beef
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div id="Div3rd" class=" col-lg col-sm">
+                <div class="optionName" id="sushiBanner">
+                    Sushi
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </body>
+</html>    

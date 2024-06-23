@@ -1,10 +1,50 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>
-            Hello coursera!
-        </title>
+        <meta charset="utf-8">
+        <title>My search engine</title>
+        <link rel="icon" type="image/x-icon" href="HTML-Page-4.ico">
+        <style>
+          #mainArt {
+            height: 2%;
+            width: 2%;
+            float:left;
+          }
+          #headDiv{
+            background-color: gainsboro;
+            border: 1px solid black;
+            position: relative;
+            display: flex;
+            align-items: center;
+          }
+          body{
+            padding: 0%;
+            margin: 0%;
+          }
+          #searchDiv {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,0);
+          }
+          p{
+            clear: both;
+          }
+          #fname{
+            width: 300px;
+          }
+        </style>
     </head>
+
     <body>
-        <h1>Hello Coursera! It's a great course!</h1>
+      <div id="headDiv">
+        <img src="icons8-search-500.png" id="mainArt">
+        <div id="searchDiv">
+          <input type="text" id="fname" name="fname">
+          <a href="https://www.google.com/search?q=coursera">
+            <button type="button" id="searchButton">Search</button>
+          </a>
+        </div>
+        <p></p>
+      </div>
     </body>
 </html>

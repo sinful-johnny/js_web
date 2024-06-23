@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Search and Articles Page</title>
+    <style>
+        /* Basic reset */
+        body, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Page styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        /* Search bar container */
+        .search-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+        /* Search input styling */
+        input[type="search"] {
+            padding: 10px;
+            width: 300px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Search button styling */
+        button[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            background-color: #333;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        /* Article styling */
+        .article {
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        /* Article title */
+        h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        /* Article paragraph */
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+        <form action="/search" method="get">
+            <input type="search" id="query" name="q" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <!-- Articles -->
+    <div class="article">
+        <h2>Article Title 1</h2>
+        <p>This is a summary of the first article. It can contain a brief description or introduction to the content.</p>
+    </div>
+
+    <div class="article">
+        <h2>Article Title 2</h2>
+        <p>This is a summary of the second article. You can add more details or a snippet from the article here.</p>
+    </div>
+
+    <div class="article">
+        <h2>Article Title 3</h2>
+        <p>The third article summary goes here. Feel free to replace this with actual content or links to full articles.</p>
+    </div>
+
+</body>
+</html>
