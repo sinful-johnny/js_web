@@ -1,0 +1,99 @@
+.button {
+  background-color: White; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px; /* Rounded corners */
+  transition-duration: 0.4s; /* Transition effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 60px;
+}
+
+.button > p {
+  margin-left: 5px;
+}
+
+.button:hover {
+  background-color: Wheat; /* Darker green */
+  color: Black;
+}
+
+.Main {
+  max-width: 450px;
+  background-color: #1A1B21;
+}
+
+.Info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Info-section > h2{
+  font-size: 25px;
+  font-weight: 700;
+  margin: 25px 0 0 0;
+}
+
+.Info-section > h4{
+  font-size: 12.8px;
+  font-weight: 400;
+  margin: 5px 0 0 0;
+  color: #F3BF99;
+}
+
+.Info-section > a{
+  font-size: 10.24px;
+  font-weight: 400;
+  margin: 5px 0 5% 0;
+  color: white;
+  text-decoration: none;
+}
+
+.About-section {
+  padding: 0 7.5% 0 7.5%;
+  margin: 0;
+}
+
+.About-section h2{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.About-section p{
+  font-size: 10.24px;
+  font-weight: 400;
+}
+
+.Interest-section {
+  padding: 0 7.5% 0 7.5%;
+}
+
+.Interest-section h2{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Interest-section p{
+  font-size: 10.24px;
+  font-weight: 400;
+}
+
+.Footer-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer-section img{
+  margin: 25px 10px 25px 10px;
+}
